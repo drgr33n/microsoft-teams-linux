@@ -1,5 +1,4 @@
 *.xz
 /pkg
-/src
 .idea
 *.zst
