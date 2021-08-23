@@ -4,16 +4,11 @@ Name=Microsoft Teams - Chromium
 Comment=Microsoft Teams for Linux is your chat-centered workspace in Office 365.
 GenericName=Teams chat app
 GenericName[en_GB]=Chat app
-Exec=chromium --enable-features=WebUIDarkMode --app=https://teams.microsoft.com
+Exec=chromium -enable-features=UseOzonePlatform -ozone-platform=wayland -app=https://teams.microsoft.com
 StartupNotify=true
 StartupWMClass=Microsoft Teams - Chromium
 Terminal=false
 Icon=teams
 Type=Application
 Categories=Network;
-Actions=new-window;new-private-window;
 X-GNOME-UsesNotifications=true;
-
-[Desktop Action Dark-mode]
-Name=Launch Dark Mode
-Exec=chromium --enable-features=WebUIDarkMode --force-dark-mode --app=https://teams.microsoft.com
