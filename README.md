@@ -4,3 +4,6 @@ session using the app flag. This allows screen sharing while within a Wayland
 session via WebRTC. 
 
 More information to follow.
+
+# Installing
+For now, just use makepkg like so: ``makepkg -si``.
